@@ -65,8 +65,8 @@ function App() {
     <>
       <a href="#admin" onClick={openAdmin}>Админка</a>
       <form onSubmit={(e) => handleSubmit(e)}>
-        <input name="name"/>
-        <input name="count" type="number"/>
+        <input placeholder='Название' name="name"/>
+        <input placeholder='Количество' name="count" type="number"/>
         <button>Отправить</button>
       </form>
     </>
